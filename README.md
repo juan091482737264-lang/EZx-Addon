@@ -1,183 +1,69 @@
-# EZx Client
+# ⚡ EZx Client
 
 <p align="center">
-  <a href="https://github.com/realnnpg/EZx/releases"><img src="https://img.shields.io/github/downloads/realnnpg/EZx/total.svg?style=for-the-badge&label=Downloads" alt="Downloads"/></a>
-  <img src="https://img.shields.io/github/stars/realnnpg/EZx?style=for-the-badge" alt="Stars"/>
-  <img src="https://img.shields.io/github/repo-size/realnnpg/EZx?style=for-the-badge" alt="Repo Size"/>
-  <a href="https://discord.gg/ezxclient"><img src="https://img.shields.io/discord/1282076342908747879?color=%237289DA&label=Discord&logo=discord&logoColor=white&style=for-the-badge" alt="Discord"/></a>
+  <img src="https://img.shields.io/badge/Minecraft-1.21.4%20--%201.21.11-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Addon-Meteor%20Client-purple?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Status-Free%20Project-green?style=for-the-badge"/>
+</p>
+
+<p align="center">
+  <a href="https://discord.gg/ezxclient">
+    <img src="https://img.shields.io/discord/1282076342908747879?color=7289DA&label=Discord&logo=discord&style=for-the-badge"/>
+  </a>
 </p>
 
 ---
 
-## 🍩DonutSMP Meteor Client Addon
+## 🌌 About EZx Client
 
-**EZx Client** is a free Meteor Client addon designed specifically for the **DonutSMP** server. I made this to automate the boring and repetitive tasks I kept doing in-game and to give others access to high-quality tools **without paying**. I've seen many paid clients that do less than this one — this is my free alternative.
+**EZx Client** is a lightweight Meteor Client addon built for **DonutSMP** players who want faster grinding, automation, and quality-of-life improvements.
 
-**78 modules** across 3 categories. Minecraft **1.21.4, 1.21.10, 1.21.11**.
+Designed to reduce repetitive gameplay and give you powerful tools without paywalls.
 
----
-
-## 🚀Features
-
-### Main Modules (39)
-
-| Module | Description |
-|---|---|
-| Admin List | List of admins - bot stops when admin detected (not fully implemented) |
-| AH Sell | Automatically sells all hotbar items using /ah sell |
-| AH Sniper | Snipes items from auction house for cheap prices |
-| Auto Blaze Rod Order | Buys/sells blaze rods in orders for profit (FAST MODE) |
-| Auto Order | Automatically orders items from the server shop |
-| Auto Pearl Chain | Chains pearls after teleport detection |
-| Auto Sell | Automatically sells items |
-| Auto Shulker Order | Buys shulkers + sells in orders with player targeting & blacklist |
-| Auto Shulker Shell Order | Buys shulker shells + sells in orders for profit (FAST MODE) |
-| Auto Totem Order | Buys totems + sells in orders with player targeting & blacklist |
-| Auto Tree Farmer | Automated tree farming with replanting |
-| Blaze Rod Dropper | Buys blaze rods + drops them |
-| Coord Snapper | Copies coordinates to clipboard + optional webhook |
-| Crate Buyer | Automatically buys common crate items |
-| Emergency Seller | Panic-sells selected items |
-| Freecam Mining | Freecam with real-position mining override |
-| Hide Scoreboard | Hides sidebar scoreboard |
-| Home Reset | Runs /delhome + /sethome for a selected slot |
-| No Block Interact | Pearl through containers by blocking GUI interactions |
-| Order Dropper | Processes orders + drops items |
-| Order Sniper | Snipes orders and sells for your price with blacklist |
-| Player Detection | Detects players in the world |
-| Premium Tunnel Base Finder | Advanced tunnel mining with lava detection, pearl-through, and safety systems |
-| Rain Noti | Notifies when it starts raining with webhook support |
-| RTP Base Finder | Mines to Y=-58 then runs /rtp east |
-| RTP End Base Finder | RTPs in the End searching for stashes |
-| RTP Nether Base Finder | RTPs Nether searching for stashes |
-| RTPer | RTP to coordinates or find specific biomes |
-| Shop Buyer | Buys selected items from PVP shop |
-| Shulker Dropper | Buys shulkers + drops them |
-| Spawner Dropper | Drops all spawner loot |
-| Spawner Order | Orders all spawner loot |
-| Spawner Protect | Breaks spawner + stores it when player detected |
-| Storage Stealer | Steals items from chests and shulkers |
-| Tab Detector | Detects when specific players join/leave |
-| TPA All Macro | Cycles players + sends /tpa or /tpahere |
-| TPA Macro | Spam-sends /tpa or /tpahere + auto-clicks confirmation |
-| Tunnel Base Finder | Mines downward, then uses #tunnel horizontally |
-| UI Helper | Helps perform various UI tasks automatically |
-
-### ESP Modules (27)
-
-| Module | Description |
-|---|---|
-| 1x1x1 Holes | Highlights small player-made air holes |
-| Advanced Stash Finder | Stash finder with webhook + auto disconnect |
-| Bedrock Void ESP | ESP for bedrock void patterns |
-| Beehive ESP | Detects full beehives with threading + tracer |
-| Block Notifier | Notifies when selected blocks appear + ESP |
-| Chunk Finder | Finds suspicious chunk patterns |
-| Cluster Finder | ESP for amethyst clusters + buds |
-| Collectible ESP | Highlights framed collectibles + banners |
-| Covered Hole | Detects covered holes with performance optimization |
-| Deepslate ESP | ESP for deepslate variants |
-| Dripstone ESP | Detects long dripstones with threading |
-| Drowned Trident ESP | Highlights drowned with tridents |
-| Fake Scoreboard | Custom EZx scoreboard overlay |
-| Hole Tunnel Stairs ESP | Highlights holes, tunnels, stairs |
-| Invis ESP | 3D hitbox rendering for invisible players and mobs |
-| Kelp ESP | Highlights suspicious kelp chunk patterns |
-| Light ESP | Light source detection with thermal color rendering |
-| Llama ESP | Detects llamas with tracers + webhook |
-| Pillager ESP | ESP for pillagers + tracers + webhook |
-| Piston ESP | ESP for pistons + sticky pistons |
-| Region Map | DonutSMP region map with location display |
-| Rotated Deepslate ESP | Highlights rotated deepslate blocks |
-| Skeleton ESP | Renders skeleton model inside players |
-| Spawner Notifier | Notifies when spawners are detected + ESP |
-| Sweet Berry ESP | Detects berry bushes at specific growth stages |
-| Villager ESP | Detects villagers + zombie villagers |
-| Vine ESP | Highlights vines touching the ground |
-| Wandering ESP | Detects wandering traders |
-
-### PvP Modules (13)
-
-| Module | Description |
-|---|---|
-| Aim Assist | Aims at entities (Grim AC v3 bypass) |
-| Anchor Macro | Automatically charges and explodes respawn anchors |
-| Anti Trap | Escape armor stands + minecart traps |
-| Auto Double Hand | Switches to totem after pop |
-| Auto Inv Totem | Moves totems to offhand after pop in inventory |
-| Breach Swap | Mace swap on attack + return |
-| Crystal Macro | Fast crystal placing |
-| Double Anchor Macro | Places + charges 2 anchors |
-| Hover Totem | Equips offhand totem when hovering in inventory |
-| Key Pearl | Switches + throws pearl on keybind |
-| Shield Breaker | Axe swap + auto shield break then switch back |
-| Sword Place Obsidian | Right-click obsidian then switch back |
-| Wind Pearl Macro | Throws pearl then wind charge |
+> ⚠️ Built for educational / experimental Minecraft modding use.
 
 ---
 
-## 🔗Great Modules to Pair With This Addon
+## ⚡ Core Features
 
-Pair your EZx setup with these built-in Meteor modules for max efficiency:
+EZx Client is split into 3 powerful systems:
 
-- `Auto Replenish`
-- `Auto Eat`
-- `Fast Place`
-- `Auto Tool`
-- `Freecam`
-- `Storage ESP`
-- `Tracers`
+### 🔧 Automation Engine
+- Auto trading & auction tools
+- Smart selling systems
+- Inventory management automation
+- Server task automation
 
----
+### 👁️ ESP & Detection
+- Entity & player detection
+- Structure / resource tracking
+- World pattern analysis tools
+- Visual overlays for gameplay awareness
 
-## ❓FAQ
-
-<details>
-  <summary><strong>🔒Is it safe to use?</strong></summary>
-  <p>
-    Yes, it's completely open-source. There are no token loggers, backdoors, or obfuscation.
-  </p>
-</details>
-
-<details>
-  <summary><strong>❔Why is it free?</strong></summary>
-  <p>
-    I made this addon to help DonutSMP players automate boring tasks without paid clients.
-  </p>
-</details>
-
-<details>
-  <summary><strong>📦Can I use this on other servers?</strong></summary>
-  <p>
-    It is designed for DonutSMP, but some modules may work elsewhere.
-  </p>
-</details>
-
-<details>
-  <summary><strong>🛠️How do I get updates?</strong></summary>
-  <p>
-    Join the <a href="https://discord.gg/ezxclient">Discord server</a>.
-  </p>
-</details>
+### ⚔️ PvP Toolkit
+- Combat assist modules
+- Crystal & anchor utilities
+- Movement & clutch tools
+- Quick-swap combat helpers
 
 ---
 
-## 📢Join the Discord
+## 📦 Module Overview
 
-> 💬**[Join the Discord](https://discord.gg/ezxclient)** for:
-> - 💸Giveaways
-> - 📢Announcements
-> - 🔍Support
-> - 💡Suggestions
+### 🧠 Utility Modules
+Automation, farming, trading, and QoL improvements.
 
----
+### 👁️ ESP Modules
+World awareness, tracking, and visualization tools.
 
-## 📥 Installation
-
-Same steps as before, but with EZx Client jar instead of Glazed.
+### ⚔️ PvP Modules
+Combat enhancements and movement tools.
 
 ---
 
-## ⚠️Disclaimer
+## 🧩 Installation
 
-Use at your own risk.
+1. Install **Fabric Loader**
+2. Download **Meteor Client**
+3. Download **EZx Client addon `.jar`**
+4. Place both in:
