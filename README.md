@@ -1,69 +1,58 @@
-# ⚡ EZx Client
+# 🔵 EZx Client
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Minecraft-1.21.4%20--%201.21.11-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Addon-Meteor%20Client-purple?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Status-Free%20Project-green?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Minecraft-1.21.4%20--%201.21.11-1E90FF?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Addon-Meteor%20Client-00BFFF?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Status-Free%20Project-4682B4?style=for-the-badge"/>
 </p>
 
 <p align="center">
   <a href="https://discord.gg/ezxclient">
-    <img src="https://img.shields.io/discord/1282076342908747879?color=7289DA&label=Discord&logo=discord&style=for-the-badge"/>
+    <img src="https://img.shields.io/discord/1282076342908747879?color=1E90FF&label=Discord&logo=discord&style=for-the-badge"/>
   </a>
 </p>
 
 ---
 
-## 🌌 About EZx Client
+## 🌐 Overview
 
-**EZx Client** is a lightweight Meteor Client addon built for **DonutSMP** players who want faster grinding, automation, and quality-of-life improvements.
+**EZx Client** is a blue-themed Meteor Client addon designed to enhance Minecraft gameplay across **any server**.
 
-Designed to reduce repetitive gameplay and give you powerful tools without paywalls.
+It focuses on:
+- ⚙️ Automation systems  
+- 👁️ Visual ESP tools  
+- ⚔️ PvP enhancements  
+- 🧠 Quality-of-life features  
 
-> ⚠️ Built for educational / experimental Minecraft modding use.
-
----
-
-## ⚡ Core Features
-
-EZx Client is split into 3 powerful systems:
-
-### 🔧 Automation Engine
-- Auto trading & auction tools
-- Smart selling systems
-- Inventory management automation
-- Server task automation
-
-### 👁️ ESP & Detection
-- Entity & player detection
-- Structure / resource tracking
-- World pattern analysis tools
-- Visual overlays for gameplay awareness
-
-### ⚔️ PvP Toolkit
-- Combat assist modules
-- Crystal & anchor utilities
-- Movement & clutch tools
-- Quick-swap combat helpers
+Built for smooth performance and flexible gameplay support.
 
 ---
 
-## 📦 Module Overview
+## 🔷 Features
 
-### 🧠 Utility Modules
-Automation, farming, trading, and QoL improvements.
+### ⚙️ Automation
+- Auto trading systems
+- Inventory management tools
+- Smart selling & buying modules
+- Task automation utilities
 
-### 👁️ ESP Modules
-World awareness, tracking, and visualization tools.
+### 👁️ ESP & Awareness
+- Entity tracking
+- World visualization tools
+- Structure detection
+- Player awareness overlays
 
-### ⚔️ PvP Modules
-Combat enhancements and movement tools.
+### ⚔️ PvP Tools
+- Combat assistance modules
+- Fast swapping utilities
+- Crystal / anchor helpers
+- Movement improvements
 
 ---
 
-## 🧩 Installation
+## 📦 Installation
 
 1. Install **Fabric Loader**
-2. Download **Meteor Client**
-3. Download **EZx Client addon `.jar`**
-4. Place both in:
+2. Install **Meteor Client**
+3. Download **EZx Client `.jar`**
+4. Move both into:
