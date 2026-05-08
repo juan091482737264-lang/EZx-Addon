@@ -1,5 +1,5 @@
 {
-  "description": "A Meteor addon made for DonutSMP",
+  "description": "A Meteor addon made for EZx Client",
   "tags": [
     "PvP",
     "Utility",
@@ -16,8 +16,8 @@
     "1.21.11"
   ],
   "icon": "https://i.imgur.com/OL2y1cr.png",
-  "discord": "https://discord.gg/glazedclient",
-  "homepage": "https://glazedclient.com",
+  "discord": "https://discord.gg/EZxclient",
+  "homepage": "https://ezxclient.com",
   "feature_directories": {
     "modules": [
       "modules/main",
@@ -26,4 +26,3 @@
     ]
   }
 }
-
