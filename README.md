@@ -1,20 +1,17 @@
-# Glazed
-<p align="center">
-  <img src="https://nnpg.dev/Glazedlogo.png" alt="Glazed Addon Banner" width="300"/>
-</p>
+# EZx Client
 
 <p align="center">
-  <a href="https://github.com/realnnpg/Glazed/releases"><img src="https://img.shields.io/github/downloads/realnnpg/Glazed/total.svg?style=for-the-badge&label=Downloads" alt="Downloads"/></a>
-  <img src="https://img.shields.io/github/stars/realnnpg/Glazed?style=for-the-badge" alt="Stars"/>
-  <img src="https://img.shields.io/github/repo-size/realnnpg/Glazed?style=for-the-badge" alt="Repo Size"/>
-  <a href="https://discord.gg/glazedclient"><img src="https://img.shields.io/discord/1282076342908747879?color=%237289DA&label=Discord&logo=discord&logoColor=white&style=for-the-badge" alt="Discord"/></a>
+  <a href="https://github.com/realnnpg/EZx/releases"><img src="https://img.shields.io/github/downloads/realnnpg/EZx/total.svg?style=for-the-badge&label=Downloads" alt="Downloads"/></a>
+  <img src="https://img.shields.io/github/stars/realnnpg/EZx?style=for-the-badge" alt="Stars"/>
+  <img src="https://img.shields.io/github/repo-size/realnnpg/EZx?style=for-the-badge" alt="Repo Size"/>
+  <a href="https://discord.gg/ezxclient"><img src="https://img.shields.io/discord/1282076342908747879?color=%237289DA&label=Discord&logo=discord&logoColor=white&style=for-the-badge" alt="Discord"/></a>
 </p>
 
 ---
 
 ## 🍩DonutSMP Meteor Client Addon
 
-**Glazed** is a free Meteor Client addon designed specifically for the **DonutSMP** server. I made this to automate the boring and repetitive tasks I kept doing in-game and to give others access to high-quality tools **without paying**. I've seen many paid clients that do less than this one — this is my free alternative.
+**EZx Client** is a free Meteor Client addon designed specifically for the **DonutSMP** server. I made this to automate the boring and repetitive tasks I kept doing in-game and to give others access to high-quality tools **without paying**. I've seen many paid clients that do less than this one — this is my free alternative.
 
 **78 modules** across 3 categories. Minecraft **1.21.4, 1.21.10, 1.21.11**.
 
@@ -82,7 +79,7 @@
 | Deepslate ESP | ESP for deepslate variants |
 | Dripstone ESP | Detects long dripstones with threading |
 | Drowned Trident ESP | Highlights drowned with tridents |
-| Fake Scoreboard | Custom Glazed scoreboard overlay |
+| Fake Scoreboard | Custom EZx scoreboard overlay |
 | Hole Tunnel Stairs ESP | Highlights holes, tunnels, stairs |
 | Invis ESP | 3D hitbox rendering for invisible players and mobs |
 | Kelp ESP | Highlights suspicious kelp chunk patterns |
@@ -121,15 +118,15 @@
 
 ## 🔗Great Modules to Pair With This Addon
 
-Pair your Glazed setup with these built-in Meteor modules for max efficiency:
+Pair your EZx setup with these built-in Meteor modules for max efficiency:
 
-- `Auto Replenish` – Automatically restocks blocks/tools
-- `Auto Eat` – Keeps your hunger up
-- `Fast Place` – Places blocks faster than vanilla
-- `Auto Tool` – Automatically switches to the best tool
-- `Freecam` – View surroundings without moving
-- `Storage ESP` – Highlights chests, shulkers, barrels
-- `Tracers` – Draws lines to players, mobs, storage
+- `Auto Replenish`
+- `Auto Eat`
+- `Fast Place`
+- `Auto Tool`
+- `Freecam`
+- `Storage ESP`
+- `Tracers`
 
 ---
 
@@ -138,28 +135,28 @@ Pair your Glazed setup with these built-in Meteor modules for max efficiency:
 <details>
   <summary><strong>🔒Is it safe to use?</strong></summary>
   <p>
-    Yes, it's completely open-source. There are no token loggers, backdoors, or obfuscation. If you're unsure, feel free to inspect the code or compile it yourself.
+    Yes, it's completely open-source. There are no token loggers, backdoors, or obfuscation.
   </p>
 </details>
 
 <details>
   <summary><strong>❔Why is it free?</strong></summary>
   <p>
-    I made this addon to help DonutSMP players automate boring tasks without paying ridiculous prices for private clients. It's a free, powerful alternative.
+    I made this addon to help DonutSMP players automate boring tasks without paid clients.
   </p>
 </details>
 
 <details>
   <summary><strong>📦Can I use this on other servers?</strong></summary>
   <p>
-    This addon was made specifically for DonutSMP, and most features are designed to work only there (e.g., Auction Sniper, Auto Sell, RTP Base Finder). While some basic modules may still work elsewhere, the full functionality is best experienced on DonutSMP.
+    It is designed for DonutSMP, but some modules may work elsewhere.
   </p>
 </details>
 
 <details>
   <summary><strong>🛠️How do I get updates?</strong></summary>
   <p>
-    Join the <a href="https://discord.gg/glazedclient">Discord server</a> for update announcements, changelogs, and early access to new modules. You can also star/watch the GitHub repo.
+    Join the <a href="https://discord.gg/ezxclient">Discord server</a>.
   </p>
 </details>
 
@@ -167,7 +164,7 @@ Pair your Glazed setup with these built-in Meteor modules for max efficiency:
 
 ## 📢Join the Discord
 
-> 💬**[Join the Discord](https://discord.gg/glazedclient)** for:
+> 💬**[Join the Discord](https://discord.gg/ezxclient)** for:
 > - 💸Giveaways
 > - 📢Announcements
 > - 🔍Support
@@ -177,41 +174,10 @@ Pair your Glazed setup with these built-in Meteor modules for max efficiency:
 
 ## 📥 Installation
 
-1. 🔽**Download Meteor Client**
-   From: https://meteorclient.com/
-
-2. 🔽 **Download Baritone**
-   From: https://meteorclient.com/
-
-3. 🧵**Install Fabric Loader**
-   Download from: https://fabricmc.net/use/
-
-4. 🧩**Put Meteor Client and this addon in `.minecraft/mods`**
-    - Locate your `.minecraft` folder (type `%appdata%` on Windows search)
-    - Drop both `.jar` files inside `/mods`
-
-5. 🚀**Launch Minecraft with the Fabric profile**
-   Open the Meteor GUI with `Right Shift` and enjoy!
-
----
-
-## 🧠 Credits
-
-Huge thanks to the projects that make this addon possible:
-
-- [Meteor Client](https://github.com/MeteorDevelopment/meteor-client)
-- [Baritone](https://github.com/cabaletta/baritone)
-- [FabricMC](https://fabricmc.net/)
-- [Claude AI](https://claude.ai/)
-- [aurickk](https://github.com/aurickk)
-- Github Contributors
+Same steps as before, but with EZx Client jar instead of Glazed.
 
 ---
 
 ## ⚠️Disclaimer
 
-This project is provided **as-is** with **no warranty** of any kind.
-
-> I am **not responsible** for any **bans, data loss, in-game money loss**, or **any other consequences** that may arise from using this addon.
->
-> **Use at your own risk.** If you lose items, get banned, or otherwise suffer any kind of issue — I simply don't care. You've been warned. Use an alt.
+Use at your own risk.
